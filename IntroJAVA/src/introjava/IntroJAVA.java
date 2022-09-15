@@ -51,6 +51,14 @@ public class IntroJAVA {
     }
 
     private static void converteMoedas() {
+        float moeda;
+        System.out.println("Insira um valor em Euros");
+        moeda = ler.nextFloat();
+        System.out.println(moeda+" (m) equivale a \n"+
+                +(moeda*5.15)+" (R$)\n"+
+                +(moeda)+" (USD)\n"+ 
+                +(moeda*7.52)+" (Kuna Croata)\n"+
+                +(moeda*143.24)+" (Iene)\n");
     }
     
 }
